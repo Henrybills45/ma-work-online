@@ -27,13 +27,9 @@ df.head()
 
 
 df['state'] = 'owned'
-df
-
-
-# In[5]:
-
-
 df.head()
+
+
 
 
 # In[6]:
@@ -51,7 +47,7 @@ df = df.fillna(0)
 # In[8]:
 
 
-df.head
+df.head()
 
 
 # In[9]:
@@ -60,10 +56,7 @@ df.head
 df.drop_duplicates()
 
 
-# In[10]:
-
-
-df.isna().sum()
+# 
 
 
 # In[11]:

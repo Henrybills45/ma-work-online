@@ -38,7 +38,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import matplotlib.pyplot as plt
 import seaborn as sns
 
 
@@ -358,7 +357,6 @@ st.plotly_chart(fig4)
 
 
 fig4.show()
-
 
 
 # This bar chart graph, Comparing the use of fuel of the Product in the dataset.

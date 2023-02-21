@@ -360,40 +360,6 @@ st.plotly_chart(fig4)
 fig4.show()
 
 
-# In[72]:
-
-
-# Plot a histogram of the numerical columns
-df.hist(bins=30, figsize=(10,15))
-
-
-# In[73]:
-
-
-# histogram of the price column
-px.histogram(df, x='price', nbins=50)
-
-
-# In[74]:
-
-
-#scatterplot of price vs odometer
-px.scatter(df, x='odometer', y='price', color='fuel')
-
-
-# In[75]:
-
-
-#histogram of the cylinders column
-px.histogram(df, x='cylinders', nbins=8)
-
-
-# In[76]:
-
-
-#scatterplot of price vs model_year
-px.scatter(df, x='model_year', y='price', color='fuel')
-
 
 # This bar chart graph, Comparing the use of fuel of the Product in the dataset.
 # Which With the help of the filters, we can check how distribution of fuel production varies
